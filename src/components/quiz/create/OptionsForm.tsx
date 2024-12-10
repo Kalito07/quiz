@@ -35,7 +35,7 @@ export function OptionsForm({
 
   return (
     <div>
-      <h4>Options for Question {questionIndex + 1}</h4>
+      <h4 className="text-xl py-5">Options for Question {questionIndex + 1}</h4>
       <RadioGroup
         onValueChange={(val) => handleCorrectOptionChange(Number(val))}
       >
